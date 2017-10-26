@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryAdrenalin</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkAdrenalin</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionOverflowButtonStyle">@style/OverFlow</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!--<item name="colorPrimary">@color/colorPrimaryAdrenalin</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkAdrenalin</item>-->
+
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <!--<item name="colorPrimary">@color/colorPrimaryAdrenalin</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkAdrenalin</item>-->
+
+    </style>
+
+    <style name="AppTheme.WhiteAccent">
+        <item name="colorAccent">@color/colorSpinner</item>
+    </style>
+
+    <style name="OverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/info</item>
+    </style>
+
+    <style name="facebook_button">
+        <item name="android:background">@drawable/facebook</item>
+    </style>
+
+    <style name="g_plus_button">
+        <item name="android:background">@drawable/search</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Title.Collapsed" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.Title.Expanded" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/colorPrimaryAdrenalin</item>
+    </style>
+
+</resources>

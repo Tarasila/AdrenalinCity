@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="project.taras.ua.adrenalincity.Activity.Login.LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+    <TextView
+        android:id="@+id/login_tv_adrenalin_welcome"
+        android:text="Adrenalin City"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_below="@+id/login_tv_adrenalin_welcome"
+        android:hint="Будь ласка введіть свій e-mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:hint="Придумайте пароль"
+        android:layout_below="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bSignUp"
+        android:layout_below="@+id/etPassword"
+        android:text="Зареєструватись"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryAdrenalin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_else"
+        android:text="або зареєструйтесь через:"
+        android:layout_below="@+id/bSignUp"
+        android:layout_margin="16dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/login_ll_container_sm_buttons"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tv_else"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/b_facebook"
+            android:layout_margin="16dp"
+            style="@style/facebook_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <Button
+            android:id="@+id/b_google_plus"
+            android:layout_margin="16dp"
+            style="@style/g_plus_button"
+            android:layout_toRightOf="@+id/b_facebook"
+            android:layout_below="@+id/bLogIn"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

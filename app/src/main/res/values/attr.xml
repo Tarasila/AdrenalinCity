@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ValueBar">
+
+        <attr name="barWidth" format="dimension" />
+        <attr name="circleRadius" format="dimension" />
+        <attr name="spaceAfterBar" format="dimension" />
+        <attr name="circleTextSize" format="dimension" />
+        <attr name="maxValueTextSize" format="dimension" />
+        <attr name="labelTextSize" format="dimension" />
+        <attr name="labelTextColor" format="color" />
+        <attr name="maxValueTextColor" format="color" />
+        <attr name="circleTextColor" format="color" />
+        <attr name="baseColor" format="color" />
+        <attr name="fillColor" format="color" />
+        <attr name="labelText" format="string" />
+        <attr name="testattr" format="dimension" />
+        <attr name="tt" format="string" />
+        <attr name="orientation" format="enum">
+            <enum name="vertical" value="1"/>
+            <enum name="horizontal" value="0"/>
+        </attr>
+
+    </declare-styleable>
+</resources>

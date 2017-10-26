@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="project.taras.ua.adrenalincity.Activity.MainPageMVC.MainActivity" >
+    <item
+        android:id="@+id/sub_menu_first_number"
+        android:title="(0332) 787-220"
+        />
+    <item
+        android:id="@+id/sub_menu_second_number"
+        android:title="(068) 716-30-65"
+        />
+    <item
+        android:id="@+id/sub_menu_third_number"
+        android:title="(050) 700-31-98"
+        />
+    <item
+        android:id="@+id/sub_menu_schedule_text"
+        android:title="(050) 700-31-98"
+        />
+    </menu>
+

@@ -1,0 +1,13 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="project.taras.ua.adrenalincity.Activity.MainPageMVC.MainActivity" >
+    <item
+        android:id="@+id/menu_user"
+        android:icon="@drawable/man_user"
+        android:title="profile"
+        android:actionViewClass="android.widget.ImageView"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+</menu>

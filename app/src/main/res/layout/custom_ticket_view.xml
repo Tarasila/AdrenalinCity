@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/my_ticket_iv"
+        android:background="#f1dd00"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/my_ticket_inf_area"
+        android:background="#ffffff"
+        android:layout_below="@id/my_ticket_iv"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <TextView
+            android:id="@+id/my_ticket_movie_title"
+            android:text="Movie title"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="26dp" />
+
+            <TextView
+                android:id="@+id/my_ticket_date"
+                android:layout_below="@+id/my_ticket_movie_title"
+                android:layout_marginLeft="18dp"
+                android:paddingTop="4dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:text=" Date: 04 02 2017"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp" />
+
+        <TextView
+            android:id="@+id/my_ticket_time"
+            android:layout_below="@+id/my_ticket_date"
+            android:layout_marginLeft="18dp"
+            android:paddingTop="4dp"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:text=" Time: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp" />
+
+            <TextView
+                android:id="@+id/my_ticket_hall"
+                android:layout_marginLeft="18dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:text=" Hall: 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_ticket_time" />
+
+            <TextView
+                android:id="@+id/my_ticket_seat_inf"
+                android:textColor="#000"
+                android:layout_marginLeft="18dp"
+                android:textSize="15dp"
+                android:text=" Raw: 10 Seat: 11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_ticket_hall" />
+
+            <TextView
+                android:id="@+id/my_ticket_price"
+                android:textColor="#000"
+                android:layout_marginLeft="18dp"
+                android:textSize="15dp"
+                android:text=" Price: 50 UAH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_ticket_seat_inf" />
+
+        <ImageView
+            android:id="@+id/my_ticket_iv_qr"
+            android:background="#000000"
+            android:scaleType="centerCrop"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/my_ticket_barCode_area"
+        android:background="#f7ffffff"
+        android:layout_below="@id/my_ticket_inf_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/my_ticket_iv_barCode"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="#ffffff"
+            android:scaleType="fitXY"
+            android:layout_width="170dp"
+            android:layout_height="170dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

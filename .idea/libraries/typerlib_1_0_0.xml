@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="typerlib-1.0.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/574d9cd60afe5f7a6403b5177f6bd231de2a9c56/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/574d9cd60afe5f7a6403b5177f6bd231de2a9c56/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.elmargomez.typer/typerlib/1.0.0/32268793f1d9bc4e8495cefac2e991d8f2697b97/typerlib-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

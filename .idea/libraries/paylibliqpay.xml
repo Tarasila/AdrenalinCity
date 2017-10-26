@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="paylibliqpay">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/paylibliqpay.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

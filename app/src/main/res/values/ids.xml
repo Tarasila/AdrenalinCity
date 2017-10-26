@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="zero"/>
+    <item type="id" name="one"/>
+    <item type="id" name="two"/>
+    <item type="id" name="three"/>
+    <item type="id" name="four"/>
+    <item type="id" name="five"/>
+    <item type="id" name="six"/>
+    <item type="id" name="seven"/>
+    <item type="id" name="eight"/>
+    <item type="id" name="nine"/>
+    <item type="id" name="ten"/>
+    <item type="id" name="eleven"/>
+    <item type="id" name="twelfth"/>
+    <item type="id" name="thirteen"/>
+    <item type="id" name="fourteen"/>
+    <item type="id" name="fifteen"/>
+    <item type="id" name="sixteen"/>
+    <item type="id" name="seventeen"/>
+    <item type="id" name="eighteen"/>
+    <item type="id" name="nineteen"/>
+    <item type="id" name="twenty"/>
+    <item type="id" name="twentyone"/>
+    <item type="id" name="twentytwo"/>
+    <item type="id" name="twentythree"/>
+    <item type="id" name="twentyfour"/>
+
+
+    <item type="id" name="container_youTube_player0"/>
+    <item type="id" name="container_youTube_player1"/>
+    <item type="id" name="container_youTube_player2"/>
+    <item type="id" name="container_youTube_player3"/>
+    <item type="id" name="container_youTube_player4"/>
+    <item type="id" name="container_youTube_player5"/>
+    <item type="id" name="container_youTube_player6"/>
+    <item type="id" name="container_youTube_player7"/>
+    <item type="id" name="container_youTube_player8"/>
+    <item type="id" name="container_youTube_player9"/>
+    <item type="id" name="container_youTube_player10"/>
+    <item type="id" name="container_youTube_player11"/>
+    <item type="id" name="container_youTube_player12"/>
+    <item type="id" name="container_youTube_player13"/>
+    <item type="id" name="container_youTube_player14"/>
+    <item type="id" name="container_youTube_player15"/>
+
+    <item type="id" name="f_cinema_b_book_and_go_to_basket"/>
+    <item type="id" name="f_cinema_b_buy"/>
+
+    <item type="id" name="menu_item_we_on_the_map"/>
+    <item type="id" name="menu_item_contacts"/>
+    <item type="id" name="menu_item_schedule"/>
+
+    <item type="id" name="movie_zoom_view"/>
+    <item name="logo_adrenalin" type="id"/>
+    <item name="f_cinema_b_log_in" type="id" />
+    <item name="f_cinema_ll_container_buttons" type="id" />
+
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_in_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_movie_poster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:transitionName="movie_poster" />
+
+    <ImageView
+        android:id="@+id/iv_blurry"
+        android:layout_alignParentRight="true"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:background="#7ea72a2a" />
+
+    <TextView
+        android:id="@+id/tv_movie_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/iv_youtube_play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/play_button" />
+
+    <TextView
+        android:id="@+id/tv_movie_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tv_movie_start_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <!--<LinearLayout
+        android:id="@+id/ll_container_top_show_time"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_show_time_1"
+            android:layout_margin="2dp"
+            android:layout_width="wrap_content"
+            android:text="14:00"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tv_show_time_2"
+            android:layout_margin="2dp"
+            android:text="14:00"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tv_show_time_3"
+            android:layout_margin="2dp"
+            android:text="14:00"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+
+    </LinearLayout>-->
+
+   <!-- <LinearLayout
+        android:id="@+id/ll_container_bottom_show_time"
+        android:layout_below="@+id/ll_container_top_show_time"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_show_time_4"
+            android:layout_margin="2dp"
+            android:text="14:00"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tv_show_time_5"
+            android:layout_margin="2dp"
+            android:text="14:00"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tv_show_time_6"
+            android:layout_margin="2dp"
+            android:text="14:00"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+
+    </LinearLayout>-->
+
+</RelativeLayout>
+
+
+
+

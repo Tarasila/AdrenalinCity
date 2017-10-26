@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="#000"
+    android:id="@+id/fl_disguise_views"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ProgressBar
+        android:id="@+id/spinner_movie_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:theme="@style/AppTheme.WhiteAccent" />
+
+    <Button
+        android:id="@+id/b_refresh_internet_connection"
+        android:layout_gravity="bottom|center_horizontal"
+        android:visibility="invisible"
+        android:layout_margin="5dp"
+        android:text="Перезавантажити"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
